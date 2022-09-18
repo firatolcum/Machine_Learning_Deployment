@@ -40,7 +40,7 @@ df = pd.DataFrame([new_data])
 
 st.write(df)
 
-final_model = pickle.load(open("final_model_auto_scout", "rb"))
+final_model = pickle.load(open("final_model_auto_scout.pickle", "rb"))
 st.info("**Check the features you selected from the table above. If correct, press the Predict button.**", icon="ℹ️")
 if st.button("Predict"):
     prediction = final_model.predict(df)
