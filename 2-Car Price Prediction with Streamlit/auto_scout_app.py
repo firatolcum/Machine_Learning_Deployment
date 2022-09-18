@@ -17,7 +17,7 @@ html_temp2 = """
 </div><br>"""
 st.markdown(html_temp2,unsafe_allow_html=True)
 st.info("**Click the arrow in the upper left\
-    corner to open the sidebar and select features of the car.**", icon="ℹ️")
+    corner to open the sidebar and select features of the car.**")
 
 
 make_model = st.sidebar.selectbox("Make and Model",('Audi A1', 'Audi A3', 'Opel Astra', 'Opel Corsa', 'Opel Insignia',
@@ -41,7 +41,7 @@ df = pd.DataFrame([new_data])
 st.write(df)
 
 final_model = pickle.load(open("final_model_auto_scout.pickle", "rb"))
-st.info("**Check the features you selected from the table above. If correct, press the Predict button.**", icon="ℹ️")
+st.info("**Check the features you selected from the table above. If correct, press the Predict button.**")
 if st.button("Predict"):
     prediction = final_model.predict(df)
     st.success(f"The Model Prediction is : **€ {round(prediction[0])}**")
