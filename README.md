@@ -6,4 +6,4 @@ If you want to use Confidence Interval Calculator, Please click: https://tinyurl
 
 2. Car Price Prediction
 
-If you want to use Car Price Prediction App, Please click: -----------------------
+If you want to use Car Price Prediction App, Please click: https://tinyurl.com/carpricemodel
