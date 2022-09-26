@@ -1,8 +1,8 @@
 Machine_Learning_Deployment
 
-1. Confidence Interval Calclater
+1. Iris Flower Type Application
 
-If you want to use Confidence Interval Calculator, Please click: https://tinyurl.com/9x1g34
+If you want to use Iris Flower Type Application, Please click: https://tinyurl.com/irismodel
 
 2. Car Price Prediction
 
