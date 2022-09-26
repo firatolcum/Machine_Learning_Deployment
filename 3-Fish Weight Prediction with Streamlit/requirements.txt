@@ -1,9 +1,3 @@
 streamlit
-pandas
-xgboost
-numpy
 scikit-learn
-seaborn
-matplotlib
-hyperopt
-protobuf
+xgboost
