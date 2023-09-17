@@ -1,8 +1,8 @@
 ### 1. Iris Flower Type Prediction Application Link:
-http://54.161.3.59:8501/
+http://18.206.240.70:8501/
 
 ### 2. Car Price Prediction Application Link:
-http://54.161.3.59:8502/
+http://18.206.240.70:8502/
 
 
 
